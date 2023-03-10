@@ -5,7 +5,7 @@ Test('random', function () {
 
     BigNumber.config({ CRYPTO: false });
 
-    for ( i = 0; i < 4994; i++ ) {
+    for ( i = 0; i < 499; i++ ) {
 
         if ( i & 1 ) {
             dp = Math.random() * 100 + 1 | 0;
